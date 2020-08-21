@@ -1,0 +1,33 @@
+{
+  "name": "auto-pinger-dev",
+  "version": "0.0.1-alpha",
+  "description": "The rewrite of the auto-pinger developer bots.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedipper/auto-pinger-dev.git"
+  },
+  "keywords": [
+    "pings",
+    "ping",
+    "bot",
+    "discord",
+    "discord",
+    "bot",
+    "discord-bot",
+    "eris"
+  ],
+  "author": "Reverse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codedipper/auto-pinger-dev/issues"
+  },
+  "homepage": "https://github.com/codedipper/auto-pinger-dev#readme",
+  "dependencies": {
+    "eris": "^0.13.3",
+    "ws": "^7.2.1"
+  }
+}
