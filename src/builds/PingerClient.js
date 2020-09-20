@@ -33,7 +33,7 @@ class PingerClient extends Eris {
             everyone: true
         } });
 
-        this.client.on("ready", () => {
+        this.client.once("ready", () => {
             console.log(this.client.user.username + " is up and running!");
 
             setInterval(() => {
